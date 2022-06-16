@@ -3,6 +3,7 @@ import os
 import requests
 import json
 
+
 def get_nvd_feed():
     url = 'https://nvd.nist.gov/feeds/json/cve/1.1/nvdcve-1.1-recent.json.gz' # NVD Feed URL
     wget.download(url)
@@ -16,7 +17,7 @@ def get_cpes():
 
 def parse_nvd_feed(cpes):
     get_nvd_feed()
-    with open('nvdcve-1.0-recent.json','r') as f:
+    with open('nvdcve-1.1-recent.json','r') as f:
         cve_feed = json.load(f)
     cve_index = 0
     cve_count = 0
