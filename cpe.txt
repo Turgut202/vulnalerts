@@ -1,2 +1,1 @@
-acme:thttpd
-nothings:stb_truetype
+argo_workflows_project:argo_workflows:2.6.0:-:*:*:*:kubernetes:*:*
