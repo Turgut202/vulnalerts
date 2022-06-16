@@ -1,3 +1,2 @@
-cpe:2.3:o:microsoft:windows_vista:6.0:sp1:-:-:home_premium:-:x64:-
-cpe:/cisco::3825/cisco:ios:12.3:enterprise 
-cpe:/ 
+cpe:/a:f5:nginx:0.1.4
+cpe:2.3:a:f5:nginx:0.1.4:*:*:*:*:*:*:*
