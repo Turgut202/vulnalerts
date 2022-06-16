@@ -1,1 +1,1 @@
-cpe://redhat:enterprise_linux:3:as/apache:httpd:2.0.52 
+cpe:2.3:a:f5:nginx:0.1.0:*:*:*:*:*:*:* 
