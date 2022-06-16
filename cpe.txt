@@ -1,2 +1,2 @@
-cpe:/a:f5:nginx:0.1.4
-cpe:2.3:a:f5:nginx:0.1.4:*:*:*:*:*:*:*
+acme:thttpd
+nothings:stb_truetype
