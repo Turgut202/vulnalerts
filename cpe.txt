@@ -1,1 +1,1 @@
-argo_workflows_project:argo_workflows:2.6.0:-:*:*:*:kubernetes:*:*
+cpe://redhat:enterprise_linux:3:as/apache:httpd:2.0.52 
