@@ -1,3 +1,2 @@
-kubernetes
-php
-nginx
+acme:thttpd
+nothings:stb_truetype
