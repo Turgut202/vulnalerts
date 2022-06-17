@@ -1,1 +1,1 @@
-microsoft:windows_10
+cpe:2.3:a:kubernetes:kubernetes:1.22.0:-:*:*:*:-:*:*
