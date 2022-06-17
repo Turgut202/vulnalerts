@@ -1,1 +1,1 @@
-*
+microsoft:windows_10
