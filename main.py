@@ -16,7 +16,7 @@ def get_cpes():
 
 def parse_nvd_feed(cpes):
     get_nvd_feed()
-    with open('nvdcve-1.1-2022.json','r') as f:
+    with open('nvdcve-1.1-2022.json','r',encoding="utf-8") as f:
         cve_feed = json.load(f)
     cve_index = 0
     cve_count = 0
