@@ -1,2 +1,3 @@
-acme:thttpd
-nothings:stb_truetype
+kubernetes
+nginx
+php
