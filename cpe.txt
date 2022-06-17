@@ -1,1 +1,3 @@
-cpe:2.3:a:argo_workflows_project:argo_workflows:2.6.0:-:*:*:*:kubernetes:*:*
+kubernetes
+nginx
+php
