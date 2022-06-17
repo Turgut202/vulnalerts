@@ -1,1 +1,1 @@
-cpe:/a:4homepages:4images:-
+cpe:2.3:a:4homepages:4images:1.7.8:*:*:*:*:*:*:* 
