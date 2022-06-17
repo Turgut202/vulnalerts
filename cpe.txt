@@ -1,1 +1,1 @@
-google:kubernetes:*:*:*:*:*:*:*:*
+kubernetes:kubernetes:1.21.0:*:*:*:*:*:*:*
