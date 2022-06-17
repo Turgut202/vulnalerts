@@ -1,1 +1,1 @@
-kubernetes:kubernetes:1.21.0:*:*:*:*:*:*:*
+cpe:/a:4homepages:4images:-
