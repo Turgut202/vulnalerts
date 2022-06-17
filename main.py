@@ -11,13 +11,13 @@ def get_nvd_feed():
     os.system(command)
 
 def get_cpes():
-    with open('cpe.txt', 'r', encoding="utf-8") as v:
+    with open('cpe.txt', 'r') as v:
         cpe = v.readlines()
         return cpe
 
 def parse_nvd_feed(cpes):
     get_nvd_feed()
-    with open('nvdcve-1.1-2022.json','r', encoding="utf-8") as f:
+    with open('nvdcve-1.1-2022.json','r') as f:
         cve_feed = json.load(f)
     cve_index = 0
     cve_count = 0
