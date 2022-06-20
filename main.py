@@ -11,7 +11,7 @@ def get_nvd_feed():
     os.system(command)
 
 def get_cpes():
-    with open('cpe.txt', 'r', encoding='utf-8') as v:
+    with open('cpe.txt', encoding='utf-8', mode='r') as v:
         cpe = v.readlines()
         return cpe
 
