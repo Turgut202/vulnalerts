@@ -12,7 +12,7 @@ def get_nvd_feed():
 
 def get_cpes():
     with open('cpe.txt', 'r') as v:
-        cpe = v.readlines().encode('utf-8')
+        cpe = v.readlines()
         return cpe
 
 def parse_nvd_feed(cpes):
