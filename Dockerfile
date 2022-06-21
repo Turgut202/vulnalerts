@@ -1,4 +1,4 @@
-FROM python:3
+FROM python:3-stretch
 
 LABEL "com.github.actions.name"="VulnAlerts"
 LABEL "com.github.actions.description"="Daily customized CVE Alerts straight to your Slack Inbox for Free."
