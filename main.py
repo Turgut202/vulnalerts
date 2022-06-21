@@ -44,7 +44,7 @@ def slack_block_format(product, description, id):
     return block
 
 def send_slack_alert(message,cve_count):
-    url = os.getenv('SLACK_WEBHOOK')
+    url = os.getenv('SLACK_WEBHOOK').encode('utf-8')
     slack_message = '{"blocks": [{"type": "section","text": {"type": "plain_text","emoji": true,"text": "Hello :wave:,'+ str(cve_count) +' Security Vulnerabilities affecting your Tech Stack were disclosed today."}}' + message + ']}'
     x = requests.post(url, data=slack_message.encode('utf-8'))
 
