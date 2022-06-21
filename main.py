@@ -11,7 +11,7 @@ def get_nvd_feed():
     os.system(command)
 
 def get_cpes():
-    with open('cpe.txt', 'r') as v:
+    with open('cpe.txt', 'r', encoding='utf-8') as v:
         cpe = v.readlines()
         return cpe
 
@@ -46,7 +46,7 @@ def slack_block_format(product, description, id):
 def send_slack_alert(message,cve_count):
     url = os.getenv('SLACK_WEBHOOK')
     slack_message = '{"blocks": [{"type": "section","text": {"type": "plain_text","emoji": true,"text": "Hello :wave:,'+ str(cve_count) +' Security Vulnerabilities affecting your Tech Stack were disclosed today."}}' + message + ']}'
-    x = requests.post(url, data=slack_message)
+    x = requests.post(url, data=slack_message, encoding='utf-8')
 
 def main():
     print("VulnAlerts Using GitHub Actions\n")
